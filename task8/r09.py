@@ -1,7 +1,6 @@
 from itertools import permutations
-words = permutations('ВУАЛЬ')
 ans = set()
-for w in words:
+for w in permutations('ВУАЛЬ'):
     word = ''.join(w)
     if word[0] != 'Ь' and 'ЬУ' not in word and 'ЬА' not in word:
         ans.add(word)
