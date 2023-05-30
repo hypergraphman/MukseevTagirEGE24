@@ -1,4 +1,6 @@
 def f(s, c, m):
+    # if s <= 100:
+    #     return c % 2 != m % 2
     if s >= 77:
         return c % 2 == m % 2
     if c == m:
